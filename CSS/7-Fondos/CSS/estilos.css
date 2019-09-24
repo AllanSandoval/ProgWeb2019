@@ -1,0 +1,12 @@
+body{
+    /*background: url('../Imagenes/Kenny.png');
+    background-repeat: no-repeat;
+    background-position: center 50px;*/
+    background-repeat: repeat;
+    color: black;
+    
+    background: rgba(135, 0, 0,.5);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(25, 10, 5,.5), rgba(135, 0, 0,.5)), url('../Imagenes/cork-board/cork-board.png');  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(25, 10, 5,.5), rgba(135, 0, 0,.5)), url('../Imagenes/cork-board/cork-board.png'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
